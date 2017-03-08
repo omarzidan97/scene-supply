@@ -11,7 +11,7 @@ $rid = $fb->entry[0]->messaging[0]->sender->id;
 $token = "EAAU7xvq2auMBAOl8jo3b4SoNYmlFB7aaXngktoiCvRQs6Tw3bp8an0V03TKfPQjbWJINeiyULavylzi7yZAzQXQW3v9b6CqHuSMY3YurBuZBhWLNJ7dMLZAdSWCblhkPMrtVS7O5nrVZB6FloOR16xiRMwEOdCFI5R5xVg1x4wZDZD"
 
 $data = array(
-	'recipient => array('id'=> "$rid"),
+	'recipient' => array('id'=> "$rid"),
 	'message' => array('text' => "Hello w ra7mato allah!.. fadaaal")
 );
 
