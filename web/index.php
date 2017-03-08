@@ -1,5 +1,5 @@
 <?php
 
-echo "<h1>SceneSupplu Bot Page</h1>";
+echo "<h1>SceneSupply Bot Page</h1>";
 
 ?>
