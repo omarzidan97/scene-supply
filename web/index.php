@@ -1,5 +1,5 @@
 <?php
 
-echo "<h1>SceneSupply Bot Page</h1>";
+print_r($_GET["hub_challenge"]);
 
 ?>
