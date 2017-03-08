@@ -1,8 +1,8 @@
 <?php
 
-//file_put_contents("fb.txt",file_get_contents("php://input"));
+file_put_contents("fb.txt",file_get_contents("php://input"));
 
-$input = json_decode(file_get_contents('php://input'), true);
+$input = json_decode(file_get_contents("fb.txt"), true);
 
 $sender = $input['entry'][0]['messaging'][0]['sender']['id'];
 $message = $input['entry'][0]['messaging'][0]['message']['text'];
